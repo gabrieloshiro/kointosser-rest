@@ -7,8 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-class KoinTosserController(@Autowired
-                           private val koinTosser: KoinTosser) {
+class KoinTosserController(@Autowired private val koinTosser: KoinTosser) {
 
     @GetMapping("/toss")
     fun toss(): Coin {

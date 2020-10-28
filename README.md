@@ -8,6 +8,6 @@ Run the task `bootRun` to start the application. Open your browser and go to `ht
 
 # Swagger
 
-- Swagger UI - http://localhost:8080/swagger-ui/
+- Swagger UI - http://localhost:8080/swagger-ui/index.html
 - Swagger Resources - http://localhost:8080/swagger-resources
 - API Docs - http://localhost:8080/v2/api-docs

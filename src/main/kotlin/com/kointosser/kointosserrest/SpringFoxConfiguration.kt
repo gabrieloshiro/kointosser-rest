@@ -12,8 +12,7 @@ class SpringFoxConfiguration {
 
     @Bean
     fun api(): Docket {
-        return Docket(DocumentationType.OAS_30)
-                .select()
+        return Docket(DocumentationType.OAS_30).select()
                 .apis(RequestHandlerSelectors.any())
                 .paths(PathSelectors.any())
                 .build()
